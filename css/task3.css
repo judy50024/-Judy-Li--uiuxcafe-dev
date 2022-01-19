@@ -1,0 +1,28 @@
+@import url(./reset.css);
+
+.card{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: block;
+    margin: 2rem auto;
+  }
+  
+.container{
+  padding: 4px 16px;
+  background-color: white;
+}
+
+.user{
+  background-color: rgb(189, 189, 189);
+}
+
+i.heart{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  cursor: pointer;
+}
