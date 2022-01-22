@@ -1,28 +1,50 @@
 @import url(./reset.css);
 
 .card{
-    position: relative;
-    overflow: hidden;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    display: block;
-    margin: 2rem auto;
-  }
+  display: block;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 4px rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+}
   
 .container{
-  padding: 4px 16px;
   background-color: white;
 }
 
-.user{
-  background-color: rgb(189, 189, 189);
+.item{
+  padding: 1rem;
+}
+
+.rooms{
+  padding: 1rem;
+  display: flex;
+}
+
+
+.realtor{
+  background-color: #ECEFF2;
+  padding: 1rem;
+  border: solid 1px red;
 }
 
 i.heart{
   position: absolute;
-  top: 5%;
-  right: 5%;
+  top: 6%;
+  right: 6%;
   color: white;
   cursor: pointer;
+}
+
+h1{
+  font-size: 48px;
+}
+
+
+h3{
+  text-transform: uppercase;
+  font-size: 18px;
 }
