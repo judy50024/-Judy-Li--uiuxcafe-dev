@@ -9,18 +9,18 @@
   }
 
 .sec1{
-    background: url('https://picsum.photos/id/1061/800/600') no-repeat;
-    background-size: 100%;
+    background: url('https://picsum.photos/id/1061/800/1000') no-repeat;
+    background-size: cover;
 }
 
 .sec2{
-    background: url('https://picsum.photos/id/1045/800/600') no-repeat;
-    background-size: 100%;
+    background: url('https://picsum.photos/id/1045/800/1200') no-repeat;
+    background-size: cover;
 }
 
 .sec3{
-    background: url('https://picsum.photos/id/1021/800/600') no-repeat;
-    background-size: 100%;
+    background: url('https://picsum.photos/id/1021/800/1200') no-repeat;
+    background-size: cover;
 }
 
 .fp-controlArrow{
